@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keerti Kalra — Graphic Designer</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #fefefe;
+      color: #111;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    a { color: inherit; text-decoration: none; border-bottom: 1px solid #111; transition: all 0.3s ease; }
+    a:hover { color: #e63946; border-bottom-color: #e63946; }
+
+    /* Layout */
+    header {
+      text-align: left;
+      padding-bottom: 3rem;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Grid for Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .project {
+      border: 2px solid #111;
+      padding: 1rem;
+      transition: 0.3s;
+    }
+    .project:hover {
+      background: #111;
+      color: #fff;
+      border-color: #e63946;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 4rem;
+      border-top: 1px solid #ccc;
+      padding-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Keerti Kalra</h1>
+    <p>Top-class graphic designer crafting bold visuals & timeless identities.</p>
+  </header>
+
+  <main>
+    <h2>Selected Work</h2>
+    <section class="projects">
+      <div class="project">
+        <h3>Brand Identity — Futura Studio</h3>
+        <p>Minimalist branding with a bold red-black palette. Typography-forward design.</p>
+      </div>
+      <div class="project">
+        <h3>Packaging — Botanika</h3>
+        <p>Eco-packaging with pastel hues and hand-drawn illustrations.</p>
+      </div>
+      <div class="project">
+        <h3>Editorial Design — Form Magazine</h3>
+        <p>Swiss-style grid layout with asymmetric type and layered visuals.</p>
+      </div>
+    </section>
+
+    <h2>Contact</h2>
+    <p>
+      Available for freelance & collaborations.<br>
+      <a href="mailto:hello@keertikalra.design">hello@keertikalra.design</a><br>
+      <a href="https://www.instagram.com/keertikalra" target="_blank">Instagram</a> —
+      <a href="https://www.behance.net/keertikalra" target="_blank">Behance</a>
+    </p>
+  </main>
+
+  <footer>
+    © 2025 Keerti Kalra — Designed & Coded with ❤️
+  </footer>
+
+</body>
+</html>
